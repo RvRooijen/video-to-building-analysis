@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Tussenresultaten (grote bestanden)
+src/output/
+
+# Input videos (prive)
+input/*.mp4
+input/*.mov
+input/*.avi
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
