@@ -91,8 +91,7 @@ De eerste keer duurt het langer omdat de AI-modellen gedownload worden (~1GB).
 
 In de `output/` map vind je:
 - `result.mp4` — de video met gekleurde overlay en afmetingen per element
-- `result_h264.mp4` — zelfde video maar compatible met WhatsApp/browsers
-
+  
 ## Zonder marker
 
 De pipeline werkt ook zonder marker, maar dan zijn de afmetingen niet betrouwbaar. Je krijgt een melding met tip om een marker te printen.
