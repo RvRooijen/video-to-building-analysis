@@ -8,9 +8,9 @@ Je filmt een ruimte met je telefoon → de pipeline herkent wanden, vloeren, pla
 
 ## Voorbeeld output
 
-| | | |
-|---|---|---|
-| ![start](docs/frame_start.jpg) | ![mid](docs/frame_mid.jpg) | ![end](docs/frame_end.jpg) |
+| |
+|---|
+| ![start](docs/frame_start.jpg) |
 
 Blauw = wand, groen = vloer, rood = deur, paars = plafond. Afmetingen worden geaggregeerd over alle frames.
 
