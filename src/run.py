@@ -75,6 +75,7 @@ def run(video_path: str, output_dir: str = "../output"):
         id2label=segmenter.id2label,
         scale_factor=scale,
         aggregated=agg,
+        cal_info=cal_info,
     )
 
     # Converteer naar H.264 voor compatibiliteit

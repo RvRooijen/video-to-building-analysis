@@ -43,6 +43,9 @@ class SemanticSegmenter:
         print(f"Model geladen. {len(self.id2label)} klassen beschikbaar.")
 
         # Log welke gebouw-relevante labels beschikbaar zijn
+        # Strip whitespace uit labels (sommige modellen hebben trailing spaces)
+        self.id2label = {k: v.strip() for k, v in self.id2label.items()}
+
         relevant = {k: v for k, v in self.id2label.items()
                     if v.lower() in BUILDING_LABELS}
         print(f"Relevante gebouwlabels: {relevant}")
